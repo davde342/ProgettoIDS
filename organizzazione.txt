@@ -1,29 +1,30 @@
 VIDEO GAME SALES
 
-OBIETTIVI ANALITICI
-Capire quali sono i generi di giochi più apprezzati dagli utenti nel corso degli anni
+OBIETTIVO ANALITICO
+quali sono i generi con il maggior numero di giochi molto apprezzati dagli utenti nel corso degli anni?
 
-PULIZIA (fatta)
+Nel corso degli anni, capire per i diversi generi di videogames come sono distribuiti i vari giochi
+in diverse categorie di apprezzamento da parte degli utenti (secondo lo user_score).
+Noi, in particolare, ci siamo concentrati sulla categoria di giochi "molto apprezzati"
+
+PULIZIA
 
 ESPLORAZIONE
 OLAP
 Line Plot
-image plot
+Box Plot (analisi differente rispetto agli altri due plot, perchè qua si mostra l'andamento generale
+degli user_score senza quantizzazione) serve per capire come svolgere test statistico
 
 TEST STATISTICI
-2 Box Plot per i user rate (group by genere):
-- Uno per le vendite dei videogiochi vecchi
-- Uno per le vendite dei videogiochi nuovi
+t-test per verificare se effettivamente role-playing vanno meglio di puzzle come sembra essere dal box plot
 
-Fai dei t-test per verificare quale genere è più venduto rispetto ad un altro
+chi quadrato su user_score e critic_score (facendo nuovo OLAP per critic_Score) con dicing ad esempio su giochi Vecchi e Molto Apprezzati,
+per vedere se hanno stessa distribuzione e quindi concludere che action è il genere con più giochi "molto apprezzati" anche per la critica (nei videgiochi vecchi)
 
-Fai chi quadrato su user_score e critic_score (facendo nuovo OLAP per critic_Score) con dicing su Action e Molto Apprezzati  (quantizzando su user_score)
-
-METODO PREDITTIVO
-cercare di prevedere il genere più apprezzato nel futuro
+(METODO PREDITTIVO)
 
 CLUSTERING
-raggruppa in base alle vendite
+raggruppa in base allo user_score
 
 
 
