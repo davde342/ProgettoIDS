@@ -7,7 +7,7 @@ Nel corso degli anni, capire per i diversi generi di videogames come sono distri
 in diverse categorie di apprezzamento da parte degli utenti (secondo lo user_score).
 Noi, in particolare, ci siamo concentrati sulla categoria di giochi "molto apprezzati")
 
-Analisi dell'andamento dei diversi generi di videogiochi nel corso degli anni dal punto di vista dello user_score
+Analisi dell'andamento dei diversi generi di videogiochi nel corso degli anni dal punto di vista dello user_score e critic_score
 
 PULIZIA
 
