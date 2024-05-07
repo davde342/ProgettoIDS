@@ -29,6 +29,9 @@ prevedere lo user_score a partire dal critic_score
 CLUSTERING
 raggruppa in base allo user_score
 
+diversi k e analizzare la qualità con silouette index
+scegli un k ideale come risultato da commentare, fai considerazioni statistiche di dati di una certa tipologia all'interno di diversi cluster
+
 
 
 
