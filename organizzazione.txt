@@ -1,11 +1,13 @@
 VIDEO GAME SALES
 
 OBIETTIVO ANALITICO
-quali sono i generi con il maggior numero di giochi molto apprezzati dagli utenti nel corso degli anni?
+(quali sono i generi con il maggior numero di giochi molto apprezzati dagli utenti nel corso degli anni?
 
 Nel corso degli anni, capire per i diversi generi di videogames come sono distribuiti i vari giochi
 in diverse categorie di apprezzamento da parte degli utenti (secondo lo user_score).
-Noi, in particolare, ci siamo concentrati sulla categoria di giochi "molto apprezzati"
+Noi, in particolare, ci siamo concentrati sulla categoria di giochi "molto apprezzati")
+
+Analisi dell'andamento dei diversi generi di videogiochi nel corso degli anni dal punto di vista dello user_score
 
 PULIZIA
 
@@ -13,15 +15,16 @@ ESPLORAZIONE
 OLAP
 Line Plot
 Box Plot (analisi differente rispetto agli altri due plot, perchè qua si mostra l'andamento generale
-degli user_score senza quantizzazione) serve per capire come svolgere test statistico
+degli user_score senza quantizzazione)
 
 TEST STATISTICI
-t-test per verificare se effettivamente role-playing vanno meglio di puzzle come sembra essere dal box plot
+t-test per verificare se effettivamente il genere Racing va meglio di Puzzle in generale dal punto di vista degli user_score, senza quantizzazione
 
 chi quadrato su user_score e critic_score (facendo nuovo OLAP per critic_Score) con dicing ad esempio su giochi Vecchi e Molto Apprezzati,
 per vedere se hanno stessa distribuzione e quindi concludere che action è il genere con più giochi "molto apprezzati" anche per la critica (nei videgiochi vecchi)
 
-(METODO PREDITTIVO)
+METODO PREDITTIVO
+prevedere lo user_score a partire dal critic_score
 
 CLUSTERING
 raggruppa in base allo user_score
